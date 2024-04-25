@@ -166,7 +166,13 @@ int main() {
                     system("pause");
                     system("cls");
                 }
-           
+                else
+                    cout << "Data Tidak ditemukan" << endl;
+                break;
+            case 3:
+                traverse();
+                break;
+            
             }
         }
         catch (exception e)
